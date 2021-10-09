@@ -1,0 +1,137 @@
+
+
+
+
+@media screen and (max-width:567px) {
+    .child01{
+
+        width: 90%;
+    }
+    .input{
+
+        width: 60%;
+    }
+}
+
+@media screen   and (min-width: 768px) and (max-width: 1023px) {
+    
+    .child01{
+
+        width: 40%;
+    }
+    .input{
+
+        width: 70%;
+    }
+}
+  
+  
+  @media screen  and (min-width: 1024px) {
+    .child01{
+
+        width: 50%;
+    }
+    
+    .input{
+
+        width: 60%;
+    }
+  }
+
+/* .parent{
+
+  
+   
+} */
+
+body{
+background-color :oldlace;
+background-image: url(image/background.jpg);
+
+}
+
+.col{
+/* border-style: dotted; */
+color: rgb(56, 42, 6);
+ text-align: center;
+     
+}
+.child01{
+
+     border-style:ridge ;
+    border: rgb(72, 34, 178);
+    background-color: rgb(193, 219, 219);
+    
+    height: 50%;
+    font-style: italic;
+    font-weight: bolder;
+     padding:auto;
+     margin: auto;
+     /* width: 50%; */
+     border: ridge rgb(219, 61, 22);
+    
+    
+
+}
+ 
+.input{
+     margin: 5px;
+       
+     
+}
+label{
+    font-style: initial;
+  color: black;
+  font-weight: bolder;
+  font-size: 2ch;
+   
+  
+
+   
+
+}
+h1{
+
+    background-color: rgb(148, 130, 97);
+}
+.log{
+    text-align: center;
+    font-style: italic;
+    font-size: 4ch;
+    color: rgb(219, 61, 22);
+}
+.child02{
+    position: sticky;
+    top: 0;
+
+    text-align: center;
+    font-weight: lighter;
+    font-style: oblique;
+    color: rgb(161, 231, 231);
+    font-size: xx-large;
+
+}
+
+.but{
+
+     margin: 2ch;
+}
+  
+
+button{
+   
+    padding: 1ch;
+    margin: 1ch;
+    font-size: 2ch;
+    background-color: rgb(20, 234, 241);
+}
+.sign-in{
+
+    font-style: italic;
+    font-weight: bolder;
+    color: red;   
+    text-align: center;
+    padding-bottom: 2ch;
+}
+ 
+ 
