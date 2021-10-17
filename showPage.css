@@ -46,14 +46,21 @@
     text-align: center;
     background-color: rgba(224, 216, 209, 0.774);
 }
+.child{
 
+  background-color: rgb(184, 179, 171);
+}
 h1{
 
     color: rgb(212, 81, 81);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
-
+label{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(26, 7, 109);
+  font-weight: bold;
+}
 
 table {
     border-style:ridge ;
@@ -96,9 +103,9 @@ table {
 
   .block {
     display: block;
-    width: 50%;
+    width: 20%;
     margin: 3ch;
-    background-color: #04AA6D;
+    background-color: #499e7f;
     color: white;
     padding: 14px 28px;
     font-size: 16px;
